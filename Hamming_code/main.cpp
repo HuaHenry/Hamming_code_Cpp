@@ -109,6 +109,7 @@ void check_correct(vector<int>& trans,int hamming_bits){
 
 
 int main(int argc, const char * argv[]) {
+    cout<<"输入传输的原始数据（二进制）:";
     string meta_data;               //待传输的元数据
     cin>>meta_data;
     
